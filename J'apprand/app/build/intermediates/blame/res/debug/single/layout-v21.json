@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\hp\\.android\\build-cache\\0a5cfa7f510b143a339e47e0b3358ccf403c65c2\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\hp\\.android\\build-cache\\0a5cfa7f510b143a339e47e0b3358ccf403c65c2\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\hp\\.android\\build-cache\\0a5cfa7f510b143a339e47e0b3358ccf403c65c2\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\hp\\.android\\build-cache\\0a5cfa7f510b143a339e47e0b3358ccf403c65c2\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

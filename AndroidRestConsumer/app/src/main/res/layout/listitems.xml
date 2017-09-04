@@ -1,0 +1,52 @@
+<!-- ?xml version="1.0" encoding="utf-8"? -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtSEType"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:textSize="13dip"
+        android:textStyle="bold" >
+
+        <!-- android:textColor="#00F" -->
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtSEName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:textSize="13dip" >
+
+        <!--
+    android:textStyle="bold" 
+	android:textColor="#00F"
+        -->
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtSEAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:textSize="13dip" >
+
+        <!-- android:textStyle="bold" -->
+    </TextView>
+
+    <!-- <Button
+        android:id="@+id/btnDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnGetEventList"
+        android:text="Get Direction"
+        android:textSize="13dip"
+        android:textStyle="bold" /> -->
+
+</LinearLayout>

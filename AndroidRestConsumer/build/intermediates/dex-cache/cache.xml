@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2\7b9c93e1c296d64fae8a9dd7fd8d322353bc167\gson-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="07b9c93e1c296d64fae8a9dd7fd8d322353bc167">
+        <dex dex="C:\Users\hp\StudioProjects\AndroidRestConsumer\app\build\intermediates\pre-dexed\debug\gson-2.2_944aca0413cdefc882d6ce291e325eaa9e0e0b41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\StudioProjects\AndroidRestConsumer\app\libs\jsoup-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5e3bda828a80c7a21dfbe2308d1755759c2fd7b4">
+        <dex dex="C:\Users\hp\StudioProjects\AndroidRestConsumer\app\build\intermediates\pre-dexed\debug\jsoup-1.9.2_e6d0df59939aec822274327958c74b360f516269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\StudioProjects\AndroidRestConsumer\app\libs\google-maps-services-0.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="800654f3eb18347c12e05bec61e9bd12619d35ba">
+        <dex dex="C:\Users\hp\StudioProjects\AndroidRestConsumer\app\build\intermediates\pre-dexed\debug\google-maps-services-0.1.7_1af3bc7c4d669fdf967d2d08196572b0d6f7f152.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\hp\StudioProjects\AndroidRestConsumer\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_3626930b7c6ab0d248ae4672a51b8283ea160e91.jar" />
+    </item>
+
+</items>

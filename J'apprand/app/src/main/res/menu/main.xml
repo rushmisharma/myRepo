@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fun.learn.japprand.MainActivity" >
+
+    <item
+        android:id="@+id/mRowGap"
+        android:icon="@drawable/rowgap"
+        android:showAsAction="always|withText"
+        android:title="Time delay between words"/>
+    <item
+        android:id="@+id/mWordGap"
+        android:icon="@drawable/wordgap"
+        android:showAsAction="always|withText"
+        android:title="Time delay between QnA"/>
+    <item
+        android:id="@+id/mSwap"
+        android:icon="@drawable/swap"
+        android:showAsAction="always|withText"
+        android:title="Swap speakers"/>
+
+</menu>

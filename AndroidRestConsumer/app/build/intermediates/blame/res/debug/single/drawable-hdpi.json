@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\src\\main\\res\\drawable-hdpi\\pause.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fwd.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\src\\main\\res\\drawable-hdpi\\fwd.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\src\\main\\res\\drawable-hdpi\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

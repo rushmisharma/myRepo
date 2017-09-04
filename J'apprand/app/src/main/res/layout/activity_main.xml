@@ -1,0 +1,481 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLO"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fun.learn.japprand.MainActivity">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoOverlay="true"
+        sothree:umanoPanelHeight="15dp"
+        sothree:umanoParalaxOffset="100dp"
+        sothree:umanoShadowHeight="6dp">
+
+        <LinearLayout
+            android:id="@+id/selLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/selLayout0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/disText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="Topic: "
+                    android:textSize="13dip" />
+
+                <Spinner
+                    android:id="@+id/lstTopic"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="3dp" />
+
+                <TextView
+                    android:id="@+id/disText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="File: "
+                    android:textSize="13dip" />
+
+                <Spinner
+                    android:id="@+id/lstFile"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="3dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/disText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Play Option: "
+                android:textSize="13dip" />
+
+            <LinearLayout
+                android:id="@+id/btnLayout0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/btnLayout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnPlayDiffOnly"
+                        android:layout_width="31dp"
+                        android:layout_height="31dp"
+                        android:layout_marginTop="1dp"
+                        android:enabled="false"
+                        android:onClick="btnPlayDiff"
+                        android:padding="0dip"
+                        android:src="@drawable/diff_checked" />
+
+                    <TextView
+                        android:id="@+id/disText4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="1dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Difficult"
+                        android:textSize="13dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnLayout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnPlayEasyOnly"
+                        android:layout_width="31dp"
+                        android:layout_height="31dp"
+                        android:layout_marginTop="1dp"
+                        android:enabled="false"
+                        android:onClick="btnPlayEasy"
+                        android:padding="0dip"
+                        android:src="@drawable/skip_checked" />
+
+                    <TextView
+                        android:id="@+id/disText5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="1dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Easy"
+                        android:textSize="13dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnLayout03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageButton
+                        android:id="@+id/btnPlayRegularOnly"
+                        android:layout_width="31dp"
+                        android:layout_height="31dp"
+                        android:layout_marginTop="1dp"
+                        android:enabled="false"
+                        android:onClick="btnPlayReg"
+                        android:padding="0dip"
+                        android:src="@drawable/regular_checked" />
+
+                    <TextView
+                        android:id="@+id/disText6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Regular"
+                        android:textSize="13dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/disText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="1dip"
+                android:text="Play List"
+                android:textSize="20dip" />
+
+            <LinearLayout
+                android:id="@+id/tblLinearLayout0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:id="@+id/scrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scrollbars="vertical">
+
+                    <HorizontalScrollView
+                        android:id="@+id/hScrollView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fillViewport="true">
+
+                        <TableLayout
+                            android:id="@+id/tableLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#7f7e7e"
+                            android:paddingTop="1dp"
+                            android:shrinkColumns="*"
+                            android:stretchColumns="*"></TableLayout>
+                    </HorizontalScrollView>
+                </ScrollView>
+
+                <TextView
+                    android:id="@+id/TextHighLight"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/border"
+                    android:gravity="start"
+                    android:text="          "
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dragView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#41c4f4"
+            android:clickable="true"
+            android:focusable="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SliderMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Click to slide up..."
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/TextQuest"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text=""
+                android:background="@drawable/border"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/TextAnsw"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:text=""
+                android:background="@drawable/border"
+                android:textSize="13dp" />
+
+            <!-- HorizontalScrollView
+                android:id="@+id/btnScrollView"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scrollbars="horizontal" -->
+
+            <LinearLayout
+                android:id="@+id/btnLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnRwdPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnRwdPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/rewind" />
+
+                <ImageButton
+                    android:id="@+id/btnGetPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnGetPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/play" />
+
+                <ImageButton
+                    android:id="@+id/btnFwdPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnFwdPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/fwd" />
+
+                <ImageButton
+                    android:id="@+id/btnStoptPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnStopPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/stop" />
+
+                <ImageButton
+                    android:id="@+id/btnShufflePracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnShufflePracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/shuffle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnRepeatPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnRepeatPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/repeat_set" />
+
+                <ImageButton
+                    android:id="@+id/btnSavePracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnSavePracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/save" />
+
+                <ImageButton
+                    android:id="@+id/btnRowGap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnRowGap"
+                    android:padding="0dip"
+                    android:src="@drawable/rowgap" />
+
+                <ImageButton
+                    android:id="@+id/btnWordGap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnWordGap"
+                    android:padding="0dip"
+                    android:src="@drawable/wordgap" />
+
+                <ImageButton
+                    android:id="@+id/btnSpeechRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnSpeechRate"
+                    android:padding="0dip"
+                    android:src="@drawable/speechrate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnDelPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnDelPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/delete" />
+
+                <ImageButton
+                    android:id="@+id/btnSwapPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnSwapPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/swap" />
+
+                <ImageButton
+                    android:id="@+id/btnTestPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnTestPracticing"
+                    android:padding="0dip"
+                    android:src="@drawable/test" />
+
+                <ImageButton
+                    android:id="@+id/btnSettingsPracticing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:onClick="btnSettings"
+                    android:padding="0dip"
+                    android:src="@drawable/settings" />
+            </LinearLayout>
+            <!-- /HorizontalScrollView -->
+
+
+        </LinearLayout>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</RelativeLayout>

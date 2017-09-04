@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Let\'s Go Salsa</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="event_type_arrays">
+        <item>Show All</item>
+        <item>Salsa Lessons</item>
+        <item>Just Dancing</item>
+        <item>Lessons and Dancing</item>
+        <item>Featured Events</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\play.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\diff_checked.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\diff_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\skip_checked.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\skip_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\diff_unchecked.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\diff_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\regular_checked.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\regular_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\settings.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\skip_unchecked.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\skip_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wordgap.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\wordgap.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\shuffle.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\shuffle.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rewind.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\rewind.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rowgap.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\rowgap.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\shuffle_set.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\shuffle_set.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\swap.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\swap.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\delete.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\stop.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\stop.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pause.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\pause.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\regular_unchecked.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\regular_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\repeat.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\repeat.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\fwd.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\fwd.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\save_active.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\save_active.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\save.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\save.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\repeat_set.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\repeat_set.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\speechrate.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\speechrate.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\test.png",
+        "source": "C:\\Users\\hp\\StudioProjects\\J'apprand\\app\\src\\main\\res\\drawable-mdpi\\test.png"
+    }
+]

@@ -1,0 +1,4 @@
+#Thu Aug 31 19:30:26 PDT 2017
+base.0=C\:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\hp\\StudioProjects\\AndroidRestConsumer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
